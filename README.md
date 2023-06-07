@@ -5,8 +5,8 @@ Editing file permissions in Linux for Users, Groups, and Other
 <br />
 <h2>Project description</h2>
 The research team at my organization needs to update the file permissions for certain files and directories within the projects directory. The permissions do not currently reflect the level of authorization that should be given. Checking and updating these permissions will help keep their system secure. To complete this task, I performed the following tasks:
-Check file and directory details
-The following code demonstrates how I used Linux commands to determine the existing permissions set for a specific directory in the file system.
+<h2>Check file and directory details</h2>
+<h2>The following code demonstrates how I used Linux commands to determine the existing permissions set for a specific directory in the file system.</h2>
 
 (pic1)
 
@@ -45,4 +45,3 @@ The following code demonstrates how I used Linux commands to change the permissi
 The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I previously determined that the group had execute permissions, so I used the chmod command to remove them. The researcher2 user already had execute permissions, so they did not need to be added.
 Summary
 I changed multiple permissions to match the level of authorization my organization wanted for files and directories in the projects directory. The first step in this was using ls -la to check the permissions for the directory. This informed my decisions in the following steps. I then used the chmod command multiple times to change the permissions on files and directories.
-![image](https://github.com/NicholasHudsonIT/File-Permissions-in-Linux/assets/120524062/eb3016b6-5192-462f-8621-4cf48786db94)
