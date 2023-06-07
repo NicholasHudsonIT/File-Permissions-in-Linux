@@ -1,7 +1,7 @@
 # File-Permissions-in-Linux
 <h1> File Permissions in Linux</h1>
 <br />
-Changning file permissions in Linux for  correct User, Group, and Other roles to match the level of authorization at my organization.
+Changing file permissions in Linux for  correct User, Group, and Other roles to match the level of authorization at my organization.
 <br />
 <h2>Project description</h2>
 The research team at my organization needs to update the file permissions for certain files and directories within the **projects** directory. The permissions do not currently reflect the level of authorization that should be given. Checking and updating these permissions will help keep their system secure. To complete this task, I performed the following tasks:
